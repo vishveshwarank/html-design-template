@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> First HTML </title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="cssexternal.css">
+</head>
+<body>
+<h1>Amrita Vishwa Vidya Peetham</h1>
+<hr>
+<p>My first paragraph.<br>
+Amrita Vishwa Vidyapeetham is a multi-disciplinary, research-intensive, private university, educating a vibrant student population of over 24,000 by 1700+ strong faculty.<br>
+Accredited with the highest possible A++ grade by NAAC, Amrita offers more than 250 UG, PG, and Ph.D. programs in Engineering, Management, and Medical Sciences including Ayurveda, Life Sciences, Physical Sciences, Agriculture Sciences, Arts & Humanities, and Social & Behavioral Sciences.<br>
+With seven campuses at Amaravati, Amritapuri, Bengaluru, Chennai, Coimbatore, Kochi, and Mysuru and a new upcoming campus at NCR Delhi (Faridabad) and spread over 1200+ acres with 100 lacs square feet of built-up space, Amrita is one of India s top-ranked private university.<br>
+</p>
+<hr>
+<a href="https://www.amrita.edu/">This is a link to COLLEGE</a>
+<hr>
+<a href="https://www.amrita.edu/" target="_blank">link to COLLEGE in new tab</a>
+<hr>
+<img src="E:\download.jpg" alt="college image">
+<hr>
+
+</body>
+</html>

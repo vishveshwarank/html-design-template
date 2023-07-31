@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: black;}
+h1   {color: white;
+    width: 673px;
+      height: 252px;
+      position: absolute;
+      top: 57px;
+      left: 232px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: 700;
+      font-size: 105.37px;
+      font line-height: 126.44px;
+}
+p    {color: red;}
+ul   {color: white;
+    width: 266px;
+        height: 219.81px;
+        position: absolute;
+        top: 400px;
+        left: 232px;
+        gap: 17.27px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button {
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  width: 555px;
+  height: 150px;
+  top: 527px;
+  left: 232px;
+  border-radius: 100px;
+  gap: 10px;
+  color: #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 86.4px;
+  padding: 32px,80px,32px,80px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:254px ;
+    height: 42px;
+    font-weight: 600;
+    size: 35px;
+    line-height: 22px;
+}
+</style>
+</head>
+<body>
+
+<h1>E-Commerce<br>Web Design</h1>
+<ul>
+    <li>UX Research</li>
+    <li>UI Design</li>
+    <li>Style Guide</li>
+    <li>Webflow Dev</li>
+  </ul>  
+<button class="button">Free Project</button>
+
+<img src="MacccBook Pro _11 1.png" alt="Girl in a jacket" width="1393.33px" height="1045px" left="3074px" style="position: absolute">
+
+</body>
+</html>
+

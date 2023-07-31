@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myfunction(){
+    document.getElementById('script').innerHTML='Paragraph Changed abc';
+}
+</script>
+</head>
+<body>
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Display Date and Time.</button>
+<p id="demo"></p>
+<hr>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "change text"'>Change text</button>
+<p id="demo1">text change</p>
+<hr>
+<img id="myImage" src="white.jpeg" style="width:350px">
+<button onclick="document.getElementById('myImage').src='red.jpeg'">color change 1</button>
+<button onclick="document.getElementById('myImage').src='white.jpeg'">color change 2</button>
+<button onclick="document.getElementById('myImage').src='black.jpeg'">color change 3</button>
+<hr>
+<p id="textchange">Text change</p>
+<button type="button" onclick="document.getElementById('textchange').style.fontSize='35px'">Click Me!</button>
+<hr>
+<p id="hide">Hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me!</button>
+<hr>
+<h1>Using script tag</h1>
+<p id="parachange"> parachange</p>
+<button type="button" onclick="myfunction">press</button>
+<hr>
+<p id="demosum"></p>
+<script>
+document.getElementById("demosum").innerHTML = 5 + 6;
+</script>
+<hr>
+document.write(5 + 6);
+<br>
+<script>
+document.write(5 + 6);
+</script>
+<hr>
+<script>
+    window.alert("Welcome to javascript");
+    </script>
+<hr>
+<h1>View in console</h1>
+<script>
+    console.log(5 + 6);
+    </script>
+<hr> 
+<p>print </p>
+<button onclick="window.print()">Print this page</button>
+</body>
+</html> 

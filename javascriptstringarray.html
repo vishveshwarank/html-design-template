@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<body>
+<h1>JAvascript strings array</h1>    
+<p id='demo'></p>
+<script>
+let text="text usning let";
+document.getElementById('demo').innerHTML=text;
+</script>
+<hr>
+<p id="demo">String length</p>
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+<hr>
+<p>string addition.</p>
+<p id="demo1"></p>
+<script>
+document.getElementById("demo1").innerHTML = "Helloplus " +
+"Dolly!";
+</script>
+<hr>
+<h1>JavaScript Strings</h1>
+<p id="demostring"></p>
+<script>
+// x is a string
+let x = new String("John");
+// y is an object
+let y ="John";
+document.getElementById("demostring").innerHTML =typeof x + "<br>" + typeof y;
+let x1 = "John";        // x is a string
+let y1 = new String("John");  // y is an object
+document.getElementById("demo").innerHTML = (x1==y1);
+</script>
+<hr>
+<p>Extract a part of a string from position 7:</p>
+<p id="demo11"></p>
+<script>
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7)
+document.getElementById("demo11").innerHTML = part;
+</script>
+<hr>
+<p>The substr() method extract a part of a string
+    and returns the extracted parts in a new string:</p>
+    
+    <p id="demo121"></p>
+    
+    <script>
+    let str = "Apple, Banana, Kiwi";
+    document.getElementById("demo121").innerHTML = str.substr(7,6);
+    </script>
+<hr>   
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo90">Please visit Microsoft!</p>
+
+<script>
+function myFunction() {
+  let text = document.getElementById("demo90").innerHTML;
+  document.getElementById("demo90").innerHTML =
+  text.replace("Microsoft","W3Schools");
+}
+</script>
+<hr>
+<h1>JavaScript Arrays</h1>
+<p id="demoarr"></p>
+<script>
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demoarr").innerHTML = cars;
+</script>
+<hr>
+<h2>Bracket Indexing</h2>
+<p id="demoslic"> slic</p>
+<script>
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demoslic").innerHTML = cars[0];
+</script>
+<hr>
+<h2>Looping an Array</h2>
+
+<p id="demo111"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
+
+let text = "<ul>";
+for (let i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo111").innerHTML = text;
+</script>
+<hr>
+</body>
+</html>

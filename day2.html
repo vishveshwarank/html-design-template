@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table, th, td, tr {
+    border:1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-spacing: 5px;
+    }
+    tr:nth-child(even) {
+  background-color: rgba(232, 7, 7, 0.4);
+}
+</style>
+<head>
+    <title> First HTML </title>
+    <link rel="stylesheet" href="cssexternal.css">
+</head>
+<h1 style="border: 1px solid white">table 1</h1>
+<style>
+    table, th, td, tr {
+    border:1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-spacing: 5px;
+    }
+    tr:nth-child(even) {
+  background-color: rgba(232, 7, 7, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(215, 233, 17, 0.4);
+}
+</style>
+<table style="width:70%" class="table2">
+    <tr>
+        <th style="width:10%"> header 1</th>
+        <th>header 2</th>
+        <th>header 3</th>
+    </tr>
+    <tr>
+        <td style="height:10px">data1</td>
+        <td>data2</td>
+        <td>data3</td>
+    </tr>
+    <tr>
+        <td style="width:10%">data11</td>
+        <td>data22</td>
+        <td>data33</td>
+    </tr>
+</table>
+<hr>
+<h1 style="border: 1px solid white">table 2</h1>
+<style>
+    table, th, td, tr {
+    border:1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-spacing: 5px;
+    }
+    tr:nth-child(even) {
+  background-color: rgba(37, 37, 37, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+</style>
+<table style="width:100%">
+    <tr>
+        <th> header 1</th>
+        <th>header 2</th>
+        <th>header 3</th>
+    </tr>
+    <tr>
+        <td>data1</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>data11</td>
+        <td></td>
+        <td></td>
+    </tr>
+<hr>
+</table>
+<p></p>
+<p></p>
+<h1>Made using iframe youtube</h1>
+<iframe width="1400" height="300" src="https://www.youtube.com/embed/HUh4FTtIPoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+<img src="images/picture.jpg" alt="Mountain">
+<hr>
+<form>
+  <label >input name 1:</label><br>
+  <input type="text" minlength="2" maxlength="5" ><br>
+  <label >input name 2:</label><br>
+  <input type="text" minlength="2" maxlength="5"  ><br>
+  <label> input name 3 :</label><br>
+  <input type="password"> <br>
+  <input type="submit" ><br>
+  <input type="reset"><br>
+  <button type="submit" onclick="alert('Hello World! using button')">Click Me!</button>
+</form>
+</html>
